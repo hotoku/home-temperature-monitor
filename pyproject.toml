@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "temp-monitor"
+version = "0.1.0"
+description = ""
+authors = ["Yasunori Horikoshi <hotoku@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+certifi = "^2024.7.4"
+urllib3 = "^2.2.2"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
