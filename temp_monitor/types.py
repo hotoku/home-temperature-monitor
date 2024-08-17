@@ -22,3 +22,10 @@ class SwitchBotResponse(BaseModel):
     body: Observation
     message: str
     statusCode: int
+
+
+class SensorInfo(BaseModel):
+    battery: int
+    temperature: float
+    humidity: float
+    created_at: datetime
